@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f5f9;
+    margin: 0;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.header{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
