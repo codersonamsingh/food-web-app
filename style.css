@@ -1,3 +1,13 @@
+:root{
+    --primary-color: #303028;
+    --red : #f81a1a;
+    --blackBackground : #393232;
+    --white : #ffffff;
+    --lightRed  : #9e1a1a;
+   
+}
+
+
 *{
     box-sizing: border-box;
 }
@@ -5,11 +15,34 @@ body{
     background-color: #f4f5f9;
     margin: 0;
 }
-.logo{
-    width: 100px;
-    height: auto;
-}
 
 .header{
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.LogoText{
+    font-size: 24px;
+    font-weight: 550;
+    color:var(--primary)
+}
+
+.nav ul{
+    padding: 0;
+    display:flex;
+    gap: 50px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: inherit;;
 }
