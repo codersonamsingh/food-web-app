@@ -4,6 +4,8 @@
     --blackBackground: #393232;
     --white: #ffffff;
     --lightRed: #9e1a1a;
+    --background : #f4f5f9;
+    --gray : #7e7e7e;
 }
 
 * {
@@ -132,7 +134,10 @@ body {
 
 }
 .container{
-    padding: 7px 20px;
+    padding: 7px 10px;
+}
+.red{
+    color:var(--red)
 }
 @media  screen and (min-width: 700px){
     .container{
@@ -152,5 +157,13 @@ body {
 
 }
 .hero_section .hero_left h1{
+    color:var(--primary);
+    font-size: 40px;
+    max-width: 300px;
+    margin: 0;
 
+}
+.hero_section .hero_left p{
+    color:var(--gray);
+    margin: 0;
 }
